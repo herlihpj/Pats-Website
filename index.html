@@ -5,82 +5,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herlihy-Data Analyst⛰️🌴</title>
-</head>
-
+    <title>Herlihy-Data Analyst</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Sacramento&display=swap" rel="stylesheet"></head>
+    
 <body>
-    <center>
-    <hr size="5" noshade>
-    <h1>Pat's Data Analytics Website</h1>
-    <img src="images/headshot.jpg" alt="Pats Headshot" height="200" width="200">
-    <h3>By</h3>
-    <h2>Pat Herlihy - <a href="https://www.linkedin.com/in/patrick-herlihy-pe-5b9080b6/">LinkedIn</a> </h2>    
-    <hr size="4" noshade>
-    <br>
-    </center>
-    <p>
-        <em>Commander and Chief of Brewing code at <strong>Herlihy Analytics</strong></em>
+
+
+    <div class="title_page">
+        <img src="images/cloud.png" alt="cloud" class="cloud1">
+        <img src="images/seagull.png" alt="seagull" class="seagull1">
         <br>
-        <strong>I am ELITE</strong>
-    </p>
 
-    <p>
-        I am a Professional Engineer Data Analyst
-        Development of this website is in progress...
-    </p>
-    <h3>Skills</h3>
-    <hr size="5" noshade>
-    <ul>
-        <li>Python
-            <ul>
-            <li>Pandas</li>
-            <li>Numpy</li>
-            <Li>SciKitLearn</Li>
-            <li>TensorFlow</li>
-            </ul>
-        </li>
-        <li>SQL</li>
-        <li>Visualization & Reporting
-            <ul>
-            <li>Tableau</li>
-            <li>PowerBI</li>
-            </ul>
-    </ul>
-    <h3>Degrees & Certifications</h3>
-    <hr size="5" noshade>
-    <ol type="A">
-        <li>University of Delaware: Civil Eningineering</li>
-        <li>Western Governors University: Data Analytics</li>
-    </ol>
-    <h3>Projects</h3>
-    <hr size="5" noshade>
-    <ol type="A">
-        <li><strong><a href="Sentiment Analysis.html">Sentiment Analysis</a></strong></li>
-    </ol>
-    <table border="5">
-    <thead>
-        <tr align="center">
-            <th>Year</th>
-            <th>University</th>
-            <th>Degree</th>
-            <th>Major</th>
-        </tr>
-    </thead>
-    <tr>
-        <td>2011-2015</td>
-        <td>UNiversity of Delaware</td>
-        <td>Bachelors of Engineering</td>
-        <td>Civil Engineering</td>
-    </tr>
+        <div class="profile"> 
+            <center>
+            <h1>Pat Herlihy's Website</h1>
+            <img src="images/headshot.jpg" class="headshot" alt="Pats Headshot" height="200" width="200">
+            <h2>Data Analyst/Scientist - <a href="https://www.linkedin.com/in/patrick-herlihy-pe-5b9080b6/">LinkedIn</a> </h2>  
+            <h2><a href="Projects/Resume_Herlihy 2023.pdf">Resume</a></h2>
+            </center>
+        </div>
+        <img src="images/cloud.png" alt="cloud" class="cloud2">
+        <br>
+        <div class="bio">
+            <p>
+                <strong>Current role: <em>Freelance Data Analyst</em></strong>
+                <br>
+            </p>
+            <p>
+                Experienced Data Analyst with a demonstrated history of working in the engineering industry. Skilled in SQL, Python, 
+                Machine Learning, Tensor Flow, Tableau, PowerBI, AutoCAD Civil 3D, SWMM, MicroStation, InRoads, Microsoft Office, and 
+                Visual Basic. Strong operations professional with a Master of Science in Data Analytics and a Bachelor of Engineering 
+                (B.E.) focused in Civil Engineering from University of Delaware. Website development still in progress...
+            </p>
+        </div>
+        <hr>
+    </div>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <ol type="A">
+            <li><strong> Hospital - Patient Analytics </strong>
+                <ul> 
+                    Patient Costs - Multiple Linear Regression
+                    <a href="Projects/1 - Customer Costs - Multiple Linear Regression.pdf">PDF</a>
+                </ul>
+                <ul>
+                    Patient Readmissions - Multiple Logistic Regression
+                    <a href="Projects/2 - Patient Readmissions - Multiple Log Regression.pdf">PDF</a>
+
+                </ul>
+                <ul>
+                    Predicting Patient Length of Stay: Random Forest with Grid Search CV
+                    <a href="Projects/Data Mining - Patient Length of Stay - Random Forests.pdf">PDF</a>
+
+                </ul>
+                <ul>
+                    Patient Readmissions Dimensionality Reduction (PCA) in a Pipeline 
+                    <a href="Projects/Data Mining - Patient Readmissions - PCA pipeline.pdf">PDF</a>
+
+                </ul>
+            </li>
+            <li><strong> Covid 19 & Hospitalizations Dashboard </strong>
+                <a href="Projects/Dashboard Covid and Patient Hospitalizations.pdf">Tableau Dashboard PDF</a>
+            </li>
+            <li><strong> SQL </strong></li>
+            <li>
+                <strong> APRIORI Customer Reccomender System: Market Basket Analysis </strong>
+                <a href="Projects/Market Basket Analysis.pdf">PDF</a>
+            </li>
+            <li>
+                <strong> Time Series ARIMA Forecasting - Hospital Revenue </strong>
+                <a href="Projects/Time Series - Revenue Forcasting ARIMA.pdf">PDF</a>
+            </li>
+            <li>
+                <strong> Sentiment Analysis Model </strong>
+                <a href="Projects/Sentiment Analysis.pdf">PDF</a>
+            </li>
+            <!-- <li><strong><a href="Sentiment Analysis.html">Sentiment Analysis Tool</a></strong></li> ##To link it to a specific page-->
+            <li>
+                <strong> San Diego Airbnb - Pricing Model </strong>
+                <a href="Projects/Airbnb Analysis/SD pricing tool - Data Cleaning.pdf">Data Cleaning</a>
+                <a href="Projects/Airbnb Analysis/SD Pricing Tool - Multiple Linear.pdf">Analysis</a>
+
+            </li>
+
+        </ol>
+        <hr>
+    </div>
+   
+
+    <div class="credentials">
+        <h2>Degrees & Certifications</h2>
+        <center>
+        <table border="5">
+        <thead>
+            <tr align="center">
+                <th>Year</th>
+                <th>Organization</th>
+                <th>Degree</th>
+                <th>Field of Study</th>
+            </tr>
+        </thead>
         <tr>
-        <td>2022-2023</td>
-        <td>Western Governors University</td>
-        <td>Master of Science</td>
-        <td>Data Analytics</td>
-    </tr>
-    </table>
+            <td>2011-2015</td>
+            <td>University of Delaware</td>
+            <td>Bachelors of Engineering</td>
+            <td>Civil Engineering</td>
+        </tr>
+            <tr>
+            <td>2022-2023</td>
+            <td>Western Governors University</td>
+            <td>Master of Science</td>
+            <td>Data Analytics</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>App Brewery</td>
+            <td>Bootcamp</td>
+            <td>Web Development</td>
+        </tr>
+        </table>
+        </center>
 
-    <p><strong><a href="contact.html">Contact Me</a></strong></p>
+        <ol type="A">
+            <li>Professional Engineer: State of Delaware</li>
+            <li>Western Governors University: Data Analytics</li>
+        </ol>
+        <hr>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python
+                <ul>
+                <li>Pandas</li>
+                <li>Numpy</li>
+                <Li>SciKitLearn</Li>
+                <li>TensorFlow</li>
+                </ul>
+            </li>
+            <li>SQL</li>
+            <li>Visualization & Reporting
+                <ul>
+                <li>Tableau</li>
+                <li>PowerBI</li>
+                </ul>
+        </ul>
+        <hr>
+    </div>
+
+
+    
+    <div class="bottom-container">
+        <a class="btn" href="mailto:herlihpa@gmail.com">CONTACT ME</a>
+        <br><br>
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Instagram</a>
+        <a class="footer-link" href="contact.html">Full Contact Info</a>
+        <p class="copyright">© Patrick Herlihy.</p>
+      </div>
+
+
 </body>
 
 </html>
