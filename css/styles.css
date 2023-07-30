@@ -1,0 +1,152 @@
+
+h1, h2, h3, p{
+    font-family: 'Montserrat-Black', sans-serif;
+
+}
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+
+}
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-weight: 600;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 10% 7%;
+}
+
+#title {
+/* #ff4c68; */
+    background-color: #1F8A70; 
+    color: #fff;
+    padding-top: 80px;
+}
+.nav-bar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-link{
+    font-size: 1.2 rem;
+    font-family: 'Ubuntu';
+}
+
+.download-button{
+    margin: 5% 3% 0 3%;
+}
+.title-image{
+    width: 20%;
+    transform: rotate(0deg);
+    position: absolute;
+}
+.title-bio{
+    color: #fff;
+}
+
+#companies{
+    background-color: #1F8A70;
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+
+.company-logo{
+    width: 15%;
+    margin: 20px 20px 20px 20px;
+}
+
+#projects {
+    padding: 8% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 2%;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testi-image{
+    width: 75%;
+    /* border-radius: 100%; */
+    margin: 20px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align:center;
+}
+
+.pricing-column{
+
+    padding: 3% 2%;
+}
+
+.credential-logo{
+    width: 35%;
+    margin: 20px 20px 50px 20px;
+}
+
+/* Media Query for mobile friendly */
+@media (max-width: 1280px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: #4c7d8e;
+    /* ff4c68 */
+    color: #fff;
+    padding: 7%  15%;
+    text-align: CENTER;
+}
+
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    /* add font awesome facebook twitter and insta icons */
+}
