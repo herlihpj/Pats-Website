@@ -1,181 +1,152 @@
-/******************* Tag Selections ******************/
-body {
-    /*background-color:rgb(8, 158, 78);*/
-    margin: 0px;
-}
 
-div {
-    background-color: #97DEFF;
-    position: relative;
-}
+h1, h2, h3, p{
+    font-family: 'Montserrat-Black', sans-serif;
 
-hr{
-    border-style: dotted none none none;
-    border-color: gray;
-    border-width: 7px;
-    width: 5%;
+}
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+
 }
 h1{
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 20px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Sacramento', cursive, serif;
-    font-size: 300%; /*100% = 16 px*/
-    line-height: 2;
-    /*color: #66BFBF;*/
-    /*font-family: "helvetica", verdana, sans-serif;*/
-    /*helveticca, verdana - verdana is the fallback font*/
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-weight: 600;
 }
 
-h2{
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 10% 7%;
+}
+
+#title {
+/* #ff4c68; */
+    background-color: #1F8A70; 
+    color: #fff;
+    padding-top: 80px;
+}
+.nav-bar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-link{
+    font-size: 1.2 rem;
+    font-family: 'Ubuntu';
+}
+
+.download-button{
+    margin: 5% 3% 0 3%;
+}
+.title-image{
+    width: 20%;
+    transform: rotate(0deg);
+    position: absolute;
+}
+.title-bio{
+    color: #fff;
+}
+
+#companies{
+    background-color: #1F8A70;
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+
+.company-logo{
+    width: 15%;
+    margin: 20px 20px 20px 20px;
+}
+
+#projects {
+    padding: 8% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 2%;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testi-image{
+    width: 75%;
+    /* border-radius: 100%; */
+    margin: 20px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align:center;
+}
+
+.pricing-column{
+
+    padding: 3% 2%;
+}
+
+.credential-logo{
+    width: 35%;
+    margin: 20px 20px 50px 20px;
+}
+
+/* Media Query for mobile friendly */
+@media (max-width: 1280px) {
+    #title{
         text-align: center;
-        font-family: 'Rubik', sans-serif;
-        font-size: 2rem;
-        font-weight: normal;
     }
 
-h3{
-    /*color: grey;*/
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-}
-p{
-    /* font-family: 'Rubik', sans-serif; */
-    font-size: 1.2rem;
-
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
-
-/******************* Class Selections *******************/
-/* <img class="bacon" src="path" alt="Bacon Photo"> */
-.title_page{
-    background-color: #62CDFF;
-    padding: 100px 20px 10px 20px;
-    /* border: solid 10px */
-    
-}
-.profile{
-    background-color: #62CDFF;
-}
-.bio{
-    margin: 50px auto;
-    padding: 30px 20px 10px 20px;
-    width: 60%;
-    background-color: #62CDFF;
+#cta {
+    background-color: #4c7d8e;
+    /* ff4c68 */
+    color: #fff;
+    padding: 7%  15%;
+    text-align: CENTER;
 }
 
-.projects{
-    background-color: #AA77FF;
-    padding: 20px 100px 10px 100px;
-
-    font-family: 'Rubik', sans-serif;
-    font-size: 1.5rem;
-
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
-
-.credentials{
-    background-color: #C9EEFF;
-    padding: 20px 20px 10px 20px;
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    /* add font awesome facebook twitter and insta icons */
 }
-
-.skills{
-    background-color: #97DEFF;
-    margin-top: 0;
-    padding: 20px 20px 10px 20px;
-}
-
-
-.bottom-container{
-    background-color: #62CDFF;
-
-    /*background-color: #C9EEFF;*/
-    padding: 20px 20px 16px 20px;
-
-}
-
-.cloud1{
-    position: absolute; 
-    top: 20px;
-    right: 200px;
-    margin-bottom: 500px;
-}
-
-.seagull1{
-    position: absolute; 
-    top: 20px;
-    right: 280px;
-    height: 100px;
-    margin-bottom: 500px;
-}
-
-.headshot{
-    position: center;
-    top: 20px
-}
-
-.cloud2{
-    position: absolute;
-    left: 300px;
-}
-
-.btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Rubik', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-  text-decoration: none;
-}
-
-.footer-link{
-    color: #11999E;
-    font-family: 'Rubik', sans-serif;
-    margin: 10px 10px;
-    text-decoration: none; /*removes underline*/
-}
-.footer-link:hover{
-    color: #eaf6f6;
-}
-
-.copyright{
-    color: #EAF6F6;
-    font-size: .75rem;
-    
-}
-
-
-
-
-/******************* ID selections Selections *******************/
-/* <h1 id="heading"> I love bacon </h1> */
-
-/******************* Notes ******************
-https://fonts.google.com/ - obtain certain fonts
-
-https://www.flaticon.com/    - seagulls and clouds
-
-https://css3buttongenerator.com/
-
-
-*/
