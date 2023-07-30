@@ -1,175 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herlihy-Data Analyst</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Sacramento&display=swap" rel="stylesheet"></head>
-    
+  <meta charset="utf-8">
+  <title>Pat Herlihy's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.4.0/js/all.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</head>
+
 <body>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class='navbar navbar-expand-lg fixed-top navbar-dark bg-dark'>
+        <a class="navbar-brand" href='#title'>Patrick Herlihy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarTogglerDemo02'>
 
-
-    <div class="title_page">
-        <img src="images/cloud.png" alt="cloud" class="cloud1">
-        <img src="images/seagull.png" alt="seagull" class="seagull1">
-        <br>
-
-        <div class="profile"> 
-            <center>
-            <h1>Pat Herlihy's Website</h1>
-            <img src="images/headshot.jpg" class="headshot" alt="Pats Headshot" height="200" width="200">
-            <h2>Data Analyst/Scientist - <a href="https://www.linkedin.com/in/patrick-herlihy-pe-5b9080b6/">LinkedIn</a> </h2>  
-            <h2><a href="Projects/Resume_Herlihy 2023.pdf">Resume</a></h2>
-            </center>
+            <ul class='navbar-nav ms-auto'>
+                <li class='nav-item'>
+                    <a class='nav-link' href='#projects'>Projects </a>
+                </li>
+                        <li class='nav-item'>
+                    <a class='nav-link' href='#pricing'>Skills </a>
+                </li>
+                        <li class='nav-item'>
+                    <a class='nav-link' href='#cta'>Certifications </a>
+                </li>
+                        </li>
+                        <li class='nav-item'>
+                    <a class='nav-link' href='#footer'>Hobbies </a>
+                </li>
+            </ul>
         </div>
-        <img src="images/cloud.png" alt="cloud" class="cloud2">
-        <br>
-        <div class="bio">
-            <p>
-                <strong>Current role: <em>Freelance Data Analyst</em></strong>
-                <br>
-            </p>
-            <p>
-                Experienced Data Analyst with a demonstrated history of working in the engineering industry. Skilled in SQL, Python, 
-                Machine Learning, Tensor Flow, Tableau, PowerBI, AutoCAD Civil 3D, SWMM, MicroStation, InRoads, Microsoft Office, and 
-                Visual Basic. Strong operations professional with a Master of Science in Data Analytics and a Bachelor of Engineering 
-                (B.E.) focused in Civil Engineering from University of Delaware. Website development still in progress...
-            </p>
-        </div>
-        <hr>
-    </div>
-
-    <div class="projects">
-        <h2>Projects</h2>
-        <ol type="A">
-            <li><strong> Hospital - Patient Analytics </strong>
-                <ul> 
-                    Patient Costs - Multiple Linear Regression
-                    <a href="Projects/1 - Customer Costs - Multiple Linear Regression.pdf">PDF</a>
-                </ul>
-                <ul>
-                    Patient Readmissions - Multiple Logistic Regression
-                    <a href="Projects/2 - Patient Readmissions - Multiple Log Regression.pdf">PDF</a>
-
-                </ul>
-                <ul>
-                    Predicting Patient Length of Stay: Random Forest with Grid Search CV
-                    <a href="Projects/Data Mining - Patient Length of Stay - Random Forests.pdf">PDF</a>
-
-                </ul>
-                <ul>
-                    Patient Readmissions Dimensionality Reduction (PCA) in a Pipeline 
-                    <a href="Projects/Data Mining - Patient Readmissions - PCA pipeline.pdf">PDF</a>
-
-                </ul>
-            </li>
-            <li><strong> Covid 19 & Hospitalizations Dashboard </strong>
-                <a href="Projects/Dashboard Covid and Patient Hospitalizations.pdf">Tableau Dashboard PDF</a>
-            </li>
-            <li><strong> SQL </strong></li>
-            <li>
-                <strong> APRIORI Customer Reccomender System: Market Basket Analysis </strong>
-                <a href="Projects/Market Basket Analysis.pdf">PDF</a>
-            </li>
-            <li>
-                <strong> Time Series ARIMA Forecasting - Hospital Revenue </strong>
-                <a href="Projects/Time Series - Revenue Forcasting ARIMA.pdf">PDF</a>
-            </li>
-            <li>
-                <strong> Sentiment Analysis Model </strong>
-                <a href="Projects/Sentiment Analysis.pdf">PDF</a>
-            </li>
-            <!-- <li><strong><a href="Sentiment Analysis.html">Sentiment Analysis Tool</a></strong></li> ##To link it to a specific page-->
-            <li>
-                <strong> San Diego Airbnb - Pricing Model </strong>
-                <a href="Projects/Airbnb Analysis/SD pricing tool - Data Cleaning.pdf">Data Cleaning</a>
-                <a href="Projects/Airbnb Analysis/SD Pricing Tool - Multiple Linear.pdf">Analysis</a>
-
-            </li>
-
-        </ol>
-        <hr>
-    </div>
-   
-
-    <div class="credentials">
-        <h2>Degrees & Certifications</h2>
-        <center>
-        <table border="5">
-        <thead>
-            <tr align="center">
-                <th>Year</th>
-                <th>Organization</th>
-                <th>Degree</th>
-                <th>Field of Study</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>2011-2015</td>
-            <td>University of Delaware</td>
-            <td>Bachelors of Engineering</td>
-            <td>Civil Engineering</td>
-        </tr>
-            <tr>
-            <td>2022-2023</td>
-            <td>Western Governors University</td>
-            <td>Master of Science</td>
-            <td>Data Analytics</td>
-        </tr>
-        <tr>
-            <td>2023</td>
-            <td>App Brewery</td>
-            <td>Bootcamp</td>
-            <td>Web Development</td>
-        </tr>
-        </table>
-        </center>
-
-        <ol type="A">
-            <li>Professional Engineer: State of Delaware</li>
-            <li>Western Governors University: Data Analytics</li>
-        </ol>
-        <hr>
-    </div>
-
-    <div class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python
-                <ul>
-                <li>Pandas</li>
-                <li>Numpy</li>
-                <Li>SciKitLearn</Li>
-                <li>TensorFlow</li>
-                </ul>
-            </li>
-            <li>SQL</li>
-            <li>Visualization & Reporting
-                <ul>
-                <li>Tableau</li>
-                <li>PowerBI</li>
-                </ul>
-        </ul>
-        <hr>
-    </div>
+      </nav>
 
 
-    
-    <div class="bottom-container">
-        <a class="btn" href="mailto:herlihpa@gmail.com">CONTACT ME</a>
-        <br><br>
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Instagram</a>
-        <a class="footer-link" href="contact.html">Full Contact Info</a>
-        <p class="copyright">© Patrick Herlihy.</p>
+        <!-- Title -->
+      <div class="row">
+          <div class="col-lg-8">
+            <h1>Data Analyst/Scientist</h1>
+            <p class="title-bio">
+              Experienced Data Analyst with a demonstrated history of working in the Civil Engineering industry. Skilled in SQL, Python, 
+              Machine Learning, Tensor Flow, Tableau, PowerBI, AutoCAD Civil 3D, SWMM, MicroStation, InRoads, and Visual Basic. Strong 
+              operations professional with a Master of Science in Data Analytics and a Bachelor of Engineering (B.E.) focused in Civil 
+              Engineering from University of Delaware. Currently working as a developer providing construction documentation automation 
+              and machine learning solutions to water and wastewater quality issues.
+          </p>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-solid fa-dog" href='Projects/Resume_Herlihy 2023.pdf'></i>Resume</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button" href="https://www.linkedin.com/in/patrick-herlihy-pe-5b9080b6/">LinkedIn</button>
+          </div>
+          <div class="col-lg-4">
+            <img class='title-image' src="images/headshot.jpg" alt="headshot">
+          </div>
+
+
       </div>
+
+    </div>
+  </section>
+
+  <!-- Press -->
+
+  <section id="companies">
+    <img class="company-logo" src="images/jacobs.png" alt="Jacobs-logo">
+    <img class="company-logo" src="images/hks_logo.png" alt="HKS-logo">
+    <img class="company-logo" src="images/jeffco_logo.png" alt="biz-insider-logo">
+    <img class="company-logo" src="images/garver_logo.png" alt="mashable-logo">
+
+  </section>
+
+  <!-- Projects -->
+
+  <section id="projects">
+
+    <div class="row">
+      <div class="feature-box col-lg-4"></div>
+
+      <div class="feature-box col-lg-4">
+        <h2><u>Portfolio</u></h2>
+      </div>
+
+      <div class="feature-box col-lg-4"></div>
+    </div>
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <h3>Multiple Linear Regression</h3>
+        <p>Performed multiple linear regression to train a model to predict costs for patients based on a series of variables determined to be most statistically significant to patient costs.</p>
+        <a href="Projects/1 - Customer Costs - Multiple Linear Regression.pdf">PDF</a>
+      </div> 
+
+      <div class="feature-box col-lg-4">
+        <h3>Multiple Logistic Regression</h3>
+        <p>Utilized multiple logistic regression to predict whether or not a patient was likely to be readmitted to the hospital dependant upon multiple factors.</p>
+        <a href="Projects/2 - Patient Readmissions - Multiple Log Regression.pdf">PDF</a>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h3>Random Forest Regression</h3>
+        <p>Tool trained to predict a patients length of stay utilizing random forest regression with hyper parameter tuning with grid search cross validation.</p>
+        <a href="Projects/Data Mining - Patient Length of Stay - Random Forests.pdf">PDF</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <h3>PCA, Regression in a Pipeline</h3>
+        <p>Utilized principal component analysis to reduce the dimentionality of the data and trained a regression model in a pipeline to predict reamission of patients with 96% accuracy.</p>
+        <a href="Projects/Data Mining - Patient Readmissions - PCA pipeline.pdf">PDF</a>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h3>Tableau Dashboard</h3>
+        <p>Patients with diabetes are higher at risk to have severe COVID-19 symptoms. Joined hospital data with COVID-19 data to create a dashboard displaying the locations highest at risk due to large number of patients with diabetes.</p>
+        <a href="Projects/Dashboard Covid and Patient Hospitalizations.pdf">Tableau Dashboard PDF</a>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h3>Time Series ARIMA Forecasting</h3>
+        <p>Forecasted hospital Revenues by creating an ARIMA model and provided full analysis looking into spectral density, seasonality, and autocorrelation.</p>
+        <a href="Projects/Time Series - Revenue Forcasting ARIMA.pdf">PDF</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <h3>SQL</h3>
+        <p>Created complecx queries on crypto currency data to obtain findings needed for the client. </p>
+
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h3>APRIORI - Market Basket Analysis</h3>
+        <p>Performed market basket analysis to usilizing the APRIORI algorithm develop a recomender system on the clients history of customer purchases.</p>
+        <a href="Projects/Market Basket Analysis.pdf">PDF</a>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <h3>Sentiment Analysis</h3> 
+        <p>Trained a model using tensorflow and item reviews from various sources to detect sentiment in text. Leave a review at the bottom of the website and see if it can detect your sentiment. </p>
+        <a href="Projects/Sentiment Analysis.pdf">PDF</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <h3>San Diego AirBnB Pricing Tool</h3>
+        <p>Acquired and cleaned airbnb housing data for analysis. Trained a multiple linear regression model to forcast future rental property prices throughout all of San Diego.</p>
+        <a href="Projects/Airbnb Analysis/SD pricing tool - Data Cleaning.pdf">Data Cleaning</a>
+        <a href="Projects/Airbnb Analysis/SD Pricing Tool - Multiple Linear.pdf">Analysis</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride='false'>
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <img class='testi-image' src="images/Multiple Linear.png" alt="Cost Regression not found">
+          <h3>Predicting patients costs using linear regression.</h3>
+        </div>
+        <div class="carousel-item">
+          <img class="testi-image" src="images/Revenue Forecast.png" alt="Hospital Revenues Not Found">
+          <h3 class="testimonial-text">Forcasting hospital revenues using ARIMA modeling.</h3>
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>x
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>Credentials</h2>
+    <p>Associations and Degrees</p>
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>University of Delaware</h3>
+          </div>
+          <div class="card-body">
+            <p> </p>            
+            <p> </p>
+            <img class="credential-logo" src="images/UD Logo.png" alt="UD-logo">
+            <p>Bachelor of Engineering</p>
+            <p>Civil Engineering - Water Resources</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>WGU</h3>
+          </div>
+          <div class="card-body">
+            <img class="credential-logo" src="images/WGU Logo.png" alt="WGU-logo">
+            <p>Master of Science</p>
+            <p>Data Analytics</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Professional Engineer</h3>
+          </div>
+          <div class="card-body">
+            <img class="credential-logo" src="images/DAPE Logo.png" alt="DAPE-logo">
+            <p>Delaware Association of Professional Engineers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Reach out and see what services I can provide you!</h3>
+    <button type="button" class="download-button btn btn-lg btn-dark">Resume</button>
+    <button type="button" class="download-button btn btn-lg btn-light">LinkedIn</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Herlihy Analytics & Engineering</p>
+
+  </footer>
 
 
 </body>
